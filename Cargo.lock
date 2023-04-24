@@ -2168,7 +2168,6 @@ version = "0.0.8"
 dependencies = [
  "cfg-if",
  "js-sys",
- "serde_json",
  "wasm-bindgen",
  "web-sys",
 ]

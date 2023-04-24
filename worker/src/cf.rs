@@ -147,6 +147,8 @@ impl Cf {
     pub fn is_eu_country(&self) -> bool {
         self.inner.is_eu_country() == Some("1".to_string())
     }
+
+    pub fn host_metadata(&self) -> Option<String> { self.inner.host_metadata() }
 }
 
 /// Browser-requested prioritization information.
