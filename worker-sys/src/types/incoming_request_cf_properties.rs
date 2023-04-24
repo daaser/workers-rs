@@ -63,5 +63,5 @@ extern "C" {
     pub fn is_eu_country(this: &IncomingRequestCfProperties) -> Option<String>;
 
     #[wasm_bindgen(method, getter, js_name=hostMetadata)]
-    pub fn host_metadata(this: &IncomingRequestCfProperties) -> Option<serde_json::Value>;
+    pub fn host_metadata(this: &IncomingRequestCfProperties) -> Option<String>;
 }
